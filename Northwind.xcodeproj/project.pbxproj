@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91EDDCC2C65266000D8178A /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91EDDCB2C65266000D8178A /* ButtonComponent.swift */; };
+		C91EDDCE2C652BE700D8178A /* UINavigationBar+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91EDDCD2C652BE700D8178A /* UINavigationBar+Appearance.swift */; };
 		C984A24B2C64D79200D61EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C984A24A2C64D79200D61EE5 /* AppDelegate.swift */; };
 		C984A24D2C64D79200D61EE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C984A24C2C64D79200D61EE5 /* SceneDelegate.swift */; };
 		C984A2542C64D79300D61EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C984A2532C64D79300D61EE5 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C91EDDCB2C65266000D8178A /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
+		C91EDDCD2C652BE700D8178A /* UINavigationBar+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Appearance.swift"; sourceTree = "<group>"; };
 		C984A2472C64D79200D61EE5 /* Northwind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Northwind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C984A24A2C64D79200D61EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C984A24C2C64D79200D61EE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				C984A2662C64DE6300D61EE5 /* BridgeComponent+App.swift */,
 				C984A2682C64DE8A00D61EE5 /* FormComponent.swift */,
 				C984A26A2C64DEC300D61EE5 /* WKWebViewConfiguration+App.swift */,
+				C91EDDCB2C65266000D8178A /* ButtonComponent.swift */,
+				C91EDDCD2C652BE700D8178A /* UINavigationBar+Appearance.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -157,8 +163,10 @@
 			files = (
 				C984A2672C64DE6400D61EE5 /* BridgeComponent+App.swift in Sources */,
 				C984A24B2C64D79200D61EE5 /* AppDelegate.swift in Sources */,
+				C91EDDCE2C652BE700D8178A /* UINavigationBar+Appearance.swift in Sources */,
 				C984A2652C64DE1100D61EE5 /* WebViewController.swift in Sources */,
 				C984A2692C64DE8A00D61EE5 /* FormComponent.swift in Sources */,
+				C91EDDCC2C65266000D8178A /* ButtonComponent.swift in Sources */,
 				C984A26B2C64DEC300D61EE5 /* WKWebViewConfiguration+App.swift in Sources */,
 				C984A24D2C64D79200D61EE5 /* SceneDelegate.swift in Sources */,
 			);

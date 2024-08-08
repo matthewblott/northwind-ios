@@ -14,7 +14,6 @@ class WebViewController: VisitableViewController, BridgeDestination {
         bridgeDelegate.onViewDidLoad()
     }
     
-    
     override func visitableDidRender() {
         title = "Strada Submit"
     }
@@ -49,4 +48,3 @@ class WebViewController: VisitableViewController, BridgeDestination {
        bridgeDelegate.webViewDidBecomeDeactivated()
     }
 }
-
