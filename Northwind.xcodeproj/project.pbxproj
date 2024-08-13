@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		C91EDDCC2C65266000D8178A /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91EDDCB2C65266000D8178A /* ButtonComponent.swift */; };
 		C91EDDCE2C652BE700D8178A /* UINavigationBar+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91EDDCD2C652BE700D8178A /* UINavigationBar+Appearance.swift */; };
+		C91EDDDC2C653A7800D8178A /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91EDDDB2C653A7800D8178A /* DeleteButton.swift */; };
+		C91EDDDE2C653A7F00D8178A /* EditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91EDDDD2C653A7F00D8178A /* EditButton.swift */; };
+		C91EDDE02C653A8600D8178A /* LinkTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91EDDDF2C653A8600D8178A /* LinkTo.swift */; };
+		C91EDDE22C653A8C00D8178A /* NewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91EDDE12C653A8C00D8178A /* NewButton.swift */; };
+		C91EDDE42C653A9200D8178A /* SaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91EDDE32C653A9200D8178A /* SaveButton.swift */; };
+		C91EDDE82C677E9300D8178A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91EDDE72C677E9300D8178A /* CustomButton.swift */; };
 		C984A24B2C64D79200D61EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C984A24A2C64D79200D61EE5 /* AppDelegate.swift */; };
 		C984A24D2C64D79200D61EE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C984A24C2C64D79200D61EE5 /* SceneDelegate.swift */; };
 		C984A2542C64D79300D61EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C984A2532C64D79300D61EE5 /* Assets.xcassets */; };
@@ -24,6 +30,12 @@
 /* Begin PBXFileReference section */
 		C91EDDCB2C65266000D8178A /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
 		C91EDDCD2C652BE700D8178A /* UINavigationBar+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Appearance.swift"; sourceTree = "<group>"; };
+		C91EDDDB2C653A7800D8178A /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
+		C91EDDDD2C653A7F00D8178A /* EditButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButton.swift; sourceTree = "<group>"; };
+		C91EDDDF2C653A8600D8178A /* LinkTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkTo.swift; sourceTree = "<group>"; };
+		C91EDDE12C653A8C00D8178A /* NewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewButton.swift; sourceTree = "<group>"; };
+		C91EDDE32C653A9200D8178A /* SaveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveButton.swift; sourceTree = "<group>"; };
+		C91EDDE72C677E9300D8178A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		C984A2472C64D79200D61EE5 /* Northwind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Northwind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C984A24A2C64D79200D61EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C984A24C2C64D79200D61EE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C91EDDD02C6538A400D8178A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C984A2662C64DE6300D61EE5 /* BridgeComponent+App.swift */,
+				C91EDDCB2C65266000D8178A /* ButtonComponent.swift */,
+				C984A2682C64DE8A00D61EE5 /* FormComponent.swift */,
+				C91EDDDB2C653A7800D8178A /* DeleteButton.swift */,
+				C91EDDDD2C653A7F00D8178A /* EditButton.swift */,
+				C91EDDDF2C653A8600D8178A /* LinkTo.swift */,
+				C91EDDE12C653A8C00D8178A /* NewButton.swift */,
+				C91EDDE32C653A9200D8178A /* SaveButton.swift */,
+				C91EDDE72C677E9300D8178A /* CustomButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C91EDDD12C6538C900D8178A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C984A2642C64DE1100D61EE5 /* WebViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C91EDDD22C6538DC00D8178A /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C984A24A2C64D79200D61EE5 /* AppDelegate.swift */,
+				C984A24C2C64D79200D61EE5 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		C91EDDD32C6538EF00D8178A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C984A2582C64D79300D61EE5 /* Info.plist */,
+				C984A2532C64D79300D61EE5 /* Assets.xcassets */,
+				C984A2552C64D79300D61EE5 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C91EDDD42C6539B400D8178A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C91EDDCD2C652BE700D8178A /* UINavigationBar+Appearance.swift */,
+				C984A26A2C64DEC300D61EE5 /* WKWebViewConfiguration+App.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C984A23E2C64D79200D61EE5 = {
 			isa = PBXGroup;
 			children = (
@@ -68,17 +132,11 @@
 		C984A2492C64D79200D61EE5 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				C984A24A2C64D79200D61EE5 /* AppDelegate.swift */,
-				C984A24C2C64D79200D61EE5 /* SceneDelegate.swift */,
-				C984A2532C64D79300D61EE5 /* Assets.xcassets */,
-				C984A2552C64D79300D61EE5 /* LaunchScreen.storyboard */,
-				C984A2582C64D79300D61EE5 /* Info.plist */,
-				C984A2642C64DE1100D61EE5 /* WebViewController.swift */,
-				C984A2662C64DE6300D61EE5 /* BridgeComponent+App.swift */,
-				C984A2682C64DE8A00D61EE5 /* FormComponent.swift */,
-				C984A26A2C64DEC300D61EE5 /* WKWebViewConfiguration+App.swift */,
-				C91EDDCB2C65266000D8178A /* ButtonComponent.swift */,
-				C91EDDCD2C652BE700D8178A /* UINavigationBar+Appearance.swift */,
+				C91EDDD42C6539B400D8178A /* Extensions */,
+				C91EDDD32C6538EF00D8178A /* Resources */,
+				C91EDDD22C6538DC00D8178A /* Delegates */,
+				C91EDDD12C6538C900D8178A /* Controllers */,
+				C91EDDD02C6538A400D8178A /* Components */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -162,13 +220,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				C984A2672C64DE6400D61EE5 /* BridgeComponent+App.swift in Sources */,
+				C91EDDDE2C653A7F00D8178A /* EditButton.swift in Sources */,
 				C984A24B2C64D79200D61EE5 /* AppDelegate.swift in Sources */,
+				C91EDDE02C653A8600D8178A /* LinkTo.swift in Sources */,
+				C91EDDE82C677E9300D8178A /* CustomButton.swift in Sources */,
 				C91EDDCE2C652BE700D8178A /* UINavigationBar+Appearance.swift in Sources */,
+				C91EDDDC2C653A7800D8178A /* DeleteButton.swift in Sources */,
 				C984A2652C64DE1100D61EE5 /* WebViewController.swift in Sources */,
+				C91EDDE22C653A8C00D8178A /* NewButton.swift in Sources */,
 				C984A2692C64DE8A00D61EE5 /* FormComponent.swift in Sources */,
 				C91EDDCC2C65266000D8178A /* ButtonComponent.swift in Sources */,
 				C984A26B2C64DEC300D61EE5 /* WKWebViewConfiguration+App.swift in Sources */,
 				C984A24D2C64D79200D61EE5 /* SceneDelegate.swift in Sources */,
+				C91EDDE42C653A9200D8178A /* SaveButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +377,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_FILE = App/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -339,7 +403,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_FILE = App/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
